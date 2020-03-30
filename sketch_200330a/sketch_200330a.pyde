@@ -1,7 +1,7 @@
 pos_x = 150
 pos_y = 0
 
-sagHallo = u'Hallo'
+sagHallo = u'Hallo '
 
 def setup():
     size(852, 480)

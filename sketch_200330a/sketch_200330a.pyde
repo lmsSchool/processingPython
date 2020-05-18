@@ -21,10 +21,13 @@ def setup():
 def draw():
     global pos_x, pos_y
     backgroundImg = loadImage("background.png")
+    
     background(backgroundImg)
     text(sagHallo, 350, 90)
+    
     image(figurImg, pos_x, pos_y)
-
+    
+    
     
     
     #Auf Tasten achten 
